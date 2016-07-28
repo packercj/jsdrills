@@ -9,7 +9,8 @@ function returnArray(arr){
   for (var i = 0; i < arr.length; i++) {
     sum += arr[i]
   }
-  console.log(sum);
+  return sum;
+  //console.log(sum);
 }
 //returnArray(array);
 
@@ -27,8 +28,8 @@ function fToC(fahrenheit) {
   var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
     console.log(message);
 }
-cToF(20);
-fToC(100);
+//cToF(20);
+//sfToC(100);
 
 //this is my function to return the vowel length
 function getVowel(str) {
@@ -47,7 +48,7 @@ function getVowel(str) {
   }
   console.log(vowelsCount);
 }
-getVowel("CameronPacker");
+//getVowel("CameronPacker");
 
 //this functions rolls the dice
 function rolldice(){
@@ -57,10 +58,12 @@ function rolldice(){
     array.push(x,y)
 console.log(array)
 }
-rolldice();
+//rolldice();
 
 //this function get the average of an array
 
-//function getAverage(){
-//  returnArray(array)
-//}
+function getAverage(){
+ var avg = returnArray(array) / 5;
+ console.log(avg)
+}
+getAverage();
