@@ -48,3 +48,19 @@ function getVowel(str) {
   console.log(vowelsCount);
 }
 getVowel("CameronPacker");
+
+//this functions rolls the dice
+function rolldice(){
+    var x = Math.floor(Math.random() * ((6-1)+1) + 1);
+    var y = Math.floor(Math.random() * ((6-1)+1) + 1);
+    var array = []
+    array.push(x,y)
+console.log(array)
+}
+rolldice();
+
+//this function get the average of an array
+
+//function getAverage(){
+//  returnArray(array)
+//}
